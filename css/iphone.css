@@ -1,0 +1,99 @@
+#container {
+  width: 500px;
+}
+
+#header {
+  background: #FFFFFF url(../images/top-banner-iphone.gif) top left no-repeat;
+}
+
+#navigation {
+  background: #F3F3F3;
+  height: auto;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#navigation ul li {
+  border: 0;
+  display: inline;
+  float: none;
+  margin: 0;
+  padding: 0;
+}
+
+#navigation ul li+li {
+  border-right: 1px #CCCCCC solid;
+}
+
+#navigation ul li.first {
+  border: 0;
+  display: none;
+  margin-left: 0;
+}
+
+#navigation ul li.last {
+  border: 0;
+}
+
+#navigation ul li a {
+  padding: 10px 10px 10px 5px;
+}
+
+#mainContent {
+  margin: 0;
+  padding: 0 10px 0 10px;
+  width: auto;
+}
+
+#mainContent h2 {
+  font-size: 11px;
+}
+
+.CollapsiblePanel {
+  border-top: 1px dotted #F28522 !important;
+  background-color: #F3F3F3;
+  margin-left: 0 !important;
+  padding-top: 5px !important;
+  width: auto !important;
+}
+
+.CollapsiblePanelTab {
+  background: transparent !important;
+  font-weight: bold;
+}
+
+.CollapsiblePanelContent {
+  display: block !important;
+}
+
+#ritesidebar, #ritesidebarhm {
+  display: none;
+}
+
+#footergif {
+  display: none;
+  width: auto;
+}
+
+#footerMobile {
+  background: #ffffff url(../images/footer-mobile.png) top left no-repeat;
+  color: #FFFFFF;
+  display: block;
+  font-size: 11px;
+  margin-top: 30px;
+  padding: 24px 0 0 0;
+}
+
+#footerContent {
+  background-color: #E18027;  
+  padding: 0 10px 10px 10px;
+}
+
+#footerContent a {
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+
+#footerContent .finePrint {
+  font-size: 9px;
+}

@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/* SpryCollapsiblePanel.css - version 0.5 - Spry Pre-Release 1.6.1 */
+/* Copyright (c) 2006. Adobe Systems Incorporated. All rights reserved. */
+
+.CollapsiblePanel {
+	width: 450px;
+	margin: 0 0 0 30px;
+	padding: 0;
+	border: 0;
+}
+.CollapsiblePanelTab {
+	margin: 0;
+	padding: 0 0 5px 0;
+	background: #FFFFFF url(../images/more.gif) center no-repeat;
+	cursor: pointer;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+}
+.CollapsiblePanelContent {
+	margin: 0;
+	padding: 0 0 5px 0;
+	border-bottom: 1px #f28522 dotted;
+}
+.CollapsiblePanelTab a {
+	color: black;
+	text-decoration: none;
+}
+.CollapsiblePanelOpen .CollapsiblePanelTab {
+	background: #FFFFFF url(../images/less.gif) center no-repeat;
+	color: #f28522;
+}
+.CollapsiblePanelClosed .CollapsiblePanelTab {
+	color: #f28522;
+}
+.CollapsiblePanelTabHover,  .CollapsiblePanelOpen .CollapsiblePanelTabHover {
+	background-color: #FFFFFF;
+}
+.CollapsiblePanelFocused .CollapsiblePanelTab {
+	background-color: #FFFFFF;
+}

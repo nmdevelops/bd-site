@@ -21,6 +21,22 @@
       <div class="rfp">
         <button id="rfp" type="button" name="button">Request a Proposal</button>
       </div>
+      <!-- Testing Section -->
+      <p id="testing"></p>
+      <script>
+        var w = window.innerWidth ||
+          document.documentElement.clientWidth ||
+          document.body.clientWidth;
+
+        var h = window.innerHeight ||
+          document.documentElement.clientHeight ||
+          document.body.clientHeight;
+
+        var x = document.getElementById("testing");
+        x.innerHTML = "<em><strong>Testing Data--></strong></em> Browser inner window width: " + w + ", height: " + h + ".";
+      </script>
+      <!-- Testing Section -->
+
       <div class="navigation">
         <button id="nav" type="button" name="button">|||</button>
       </div>
@@ -30,39 +46,29 @@
       <p>In order to best serve you please narrow your search by one of the categories below, or request a consultation.
       </p>
 
-      <h2><button id="whatYouDo" class="coolBottom" type="button" name="button">What you do</button></h2>
+
+
+      <h2><button id="whatYouDo" class="coolBottom" type="button" name="button">What you do &nbsp;<span id="expand-whatYouDo" class="glyphicon glyphicon-chevron-down"></span></button></h2>
+
+
       <div class="whatYouDo">
-        <h3><button class="coolBottom" type="button" name="button">Architects</button> | <button class="coolBottom" type="button" name="button">Engineers</button> | <button class="coolBottom" type="button" name="button">Construction Contractors</button> | <button class="coolBottom" type="button" name="button">Developers</button> | <button class="coolBottom" type="button" name="button">Land Owners</button></h3>
+        <h3><button class="coolBottom" type="button" name="button">Architects</button> | <button class="coolBottom" type="button" name="button">Engineers</button> | <button class="coolBottom" type="button" name="button">Construction Contractors</button> | <button class="coolBottom" type="button" name="button">Developers</button> | <button class="coolBottom" type="button" name="button">Land Owners</button> | &nbsp;<button class="coolDot collapse" data-group="whatYouDo" type="button" name="button"><span class="glyphicon glyphicon-chevron-up" ></span></button></h3>
       </div>
 
       <hr>
 
-      <h2><button id="whatYouNeed" class="coolBottom" type="button" name="button">What you need</button></h2>
+      <h2><button id="whatYouNeed" class="coolBottom" type="button" name="button">What you need &nbsp;<span id="expand-whatYouNeed" class="glyphicon glyphicon-chevron-down"></span></button></h2>
 
       <div class="whatYouNeed">
-        <h3><button id="preDesign" class="coolBottom" type="button" name="button">Pre-Design Survey</button> | <button id="preCon" class="coolBottom" type="button" name="button">Pre/Post-Construction Record of Survey</button> | <button class="coolBottom" type="button" name="button">Airport Survey</button> | <button class="coolBottom" type="button" name="button">ALTA Land Title Survey</button> | </h3>
+        <h3><button id="preDesign" class="coolBottom" type="button" name="button">Pre-Design Survey</button> | <button id="preCon" class="coolBottom" type="button" name="button">Pre/Post-Construction Record of Survey</button> | <button class="coolBottom" type="button" name="button">Airport Survey</button> | <button class="coolBottom" type="button" name="button">ALTA Land Title Survey</button> | &nbsp;<button class="coolDot collapse" data-group="whatYouNeed" type="button" name="button"><span class="glyphicon glyphicon-chevron-up" ></span></button></h3>
       </div>
-
       <hr>
       <p>We have developed a set of tools that we dynamically implement to solve our clients problems. Connect with us to get a consultation on your project.</p>
       <button id="consult" type="button" name="button">Consultation</button>
     </div>
-
-<!-- //Current time to bid
-    <div class="progress">
-      <div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-    </div>
-Current NTP to field
-<div class="progress">
-  <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-</div> -->
-
   </div>
-
-
   <footer id="footer-container">
-    <p><a href="mailto:info@bluedotgrp.com">Email Us</a> &bull; 503.624.0108 &bull; 11700 SW 67th Ave. &bull; Tigard, Oregon 97223 <br> Copyright (c) 2017 bluedot group, All Rights Reserved</p>
+    <p><a href="mailto:info@bluedotgrp.com">info@bluedotgrp.com</a> &bull; 503.624.0108 &bull; 11700 SW 67th Ave., Tigard, Oregon 97223 <br> Copyright (c) 2017 bluedot group, All Rights Reserved</p>
   </footer>
 </body>
-
 </html>

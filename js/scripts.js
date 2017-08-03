@@ -6,7 +6,6 @@
 
   var btnID;
   var idToCollapse;
-  var viewH;
 
 var categoryExpand = (function() {
   $("." + btnID).slideDown();
@@ -29,6 +28,18 @@ var categoryCollapse = (function(idToCollapse) {
 })
 
 
+var maxProfitHrsPerWeek = 40;
+//future input
+var driveTime = 3;
+var estimatedJobFieldHrs = 120;
+var settleTime = 1
+
+var nonProductiveTimePerWk = driveTime + settleTime;
+var productiveTimePerWk = maxProfitHrsPerWeek - nonProductiveTimePerWk;
+
+var perDiemCalc =(function() {
+
+})
 
 
 

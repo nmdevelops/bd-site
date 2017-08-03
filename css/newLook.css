@@ -9,7 +9,6 @@
 
 body, html {
   height: 100%;
-  overflow-y: auto;
 }
 
 .container {
@@ -20,9 +19,25 @@ body, html {
 /*Elements that compose topBar*/
 .topBar {
 width: 100%;
+height: 150px;
 margin-left: 10px;
-padding-bottom: 130px;
+margin-bottom: 50px;
+position: fixed;
+z-index: 2;
+background-color: transparent;
 }
+
+.header-container {
+  position: absolute center;
+  top: 150px;
+  background-color: #111;
+  margin-top: 150px;
+  width: 100%;
+}
+
+/*.scroll-container {
+  overflow-y: scroll;
+}*/
 
 .logo {
   position: fixed;
@@ -30,6 +45,7 @@ padding-bottom: 130px;
   top: 50px;
   line-height: 150%;
   text-align: right;
+  z-index: 3;
 }
 
 .logo p {
@@ -93,23 +109,30 @@ button#rfp, button#nav, button#consult {
 
 button#consult {
   position: relative;
-  left: -40px;
-  bottom: -40px;
+  /*left: -40px;
+  bottom: -40px;*/
   background-color: #111;
+  float: left;
+  margin-right: 20px;
 }
+
 
 /*End of topBar elements*/
 .intro {
   position: relative;
   top: 30%;
   /*left: 15%;*/
-  /*padding-top: 130px;*/
   background-color: #111;
-  margin: 5px;
+  /*margin: 5px;*/
+  margin-top: 0px;
   padding: 20px;
-  margin-bottom: 80px;
+  margin-bottom: 85px;
+  min-height: 100%;
 }
 
+.intro footer p {
+
+}
 /*.intro li {
   list-style: none;
   display: inline;
@@ -139,10 +162,11 @@ button#consult {
 }*/
 
 
-.intro h1 {
+.header-container h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: lighter;
   color: #055faa;
+  padding-top: 20px;
 }
 
 .intro h2 {
@@ -154,11 +178,14 @@ button#consult {
   letter-spacing: 4px;
 }
 
-.intro p {
+.header-container p {
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
   color: white;
+  margin-bottom: 0px;
+}
 
+.intro header {
 }
 
 button.coolBottom {
